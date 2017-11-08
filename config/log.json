@@ -1,0 +1,10 @@
+
+  {
+    "appenders":{
+      "out": { "type":"console" },
+      "app": { "type":"file" , "filename":"/data/log/node/app.log" }
+    },
+    "categories":{
+      "default":{ "appenders":[ "app" , "out" ] }
+    }
+  }

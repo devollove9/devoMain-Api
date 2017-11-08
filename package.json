@@ -1,0 +1,39 @@
+{
+  "name": "devomain",
+  "version": "1.0.0",
+  "description": "devoMain API test",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "babel-node index.js",
+    "lint": "./node_modules/.bin/eslint --ext .js .",
+    "fLint": "./node_modules/.bin/eslint --ext .js . --fix"
+  },
+  "author": "devo",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "babel-preset-env": "^1.6.1",
+    "bluebird": "^3.5.1",
+    "chance": "^1.0.12",
+    "co-redis": "^2.1.1",
+    "eslint": "^4.9.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "devomain-all": "^1.0.0",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-compress": "^2.0.0",
+    "koa-router": "^7.2.1",
+    "log4js": "^2.3.9",
+    "log4js-logstash": "^0.2.3",
+    "mongoose": "^4.12.4",
+    "pug": "^2.0.0-rc.4",
+    "redis": "^2.8.0"
+  }
+}
